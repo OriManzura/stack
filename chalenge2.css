@@ -1,0 +1,28 @@
+
+body{
+    background-color: blanchedalmond;  
+}
+.can{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#d12{
+    border-style: hidden;
+
+}
+#p1{
+    font-size: 20px;
+    color: rgb(31, 78, 172);
+}
+#p2{
+    font-size: 40px;
+    color: chartreuse;
+    text-align: center;
+}
+#a1{
+    text-align: center;
+    border-style: solid;
+    color: azure;
+    background-color: darkgreen;
+}
