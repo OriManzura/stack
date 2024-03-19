@@ -1,0 +1,32 @@
+.con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-style: solid;
+
+}
+#box1{
+    background-color: bisque;
+
+}
+#box2{
+    background-color: rgb(200, 196, 255);
+}
+#box3{
+    background-color: rgb(255, 196, 228);
+}
+#box4{
+    background-color: rgb(196, 248, 255);
+}
+h1{
+    margin: 0px 10px 0px 10px;
+    border-style: solid;
+}
+p{
+    padding: 10px 10px 10px 10px;
+}
