@@ -6,14 +6,26 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+img{
+    width: 250px;
 }
 #d12{
+    width: 230px;
+    height: 245px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  background-color: azure;
     border-style: hidden;
-
+    margin: 0 0 0 0;
 }
 #p1{
     font-size: 20px;
-    color: rgb(31, 78, 172);
+    color: rgb(117, 3, 108);
 }
 #p2{
     font-size: 40px;
@@ -22,7 +34,10 @@ body{
 }
 #a1{
     text-align: center;
-    border-style: solid;
+    border-style: none;
     color: azure;
     background-color: darkgreen;
+    border-radius: 20%;
+    font-size: 20px;
+
 }
