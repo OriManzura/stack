@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>candy prodact</title>
+    <link rel="stylesheet" href="candypage.css">
+</head>
+<body>
+    <div class="pic">
+        <img src="the candy shop.jpg" alt="candy head">
+        </div>
+        <h1>chocolate wuffels</h1>
+    <h2>price: S 5$ | M 10$ | L 12$</h2>
+    <div class="button-container">
+        <button onclick="selectButton(1)">S</button>
+        <button onclick="selectButton(2)">M</button>
+        <button onclick="selectButton(3)">L</button>
+        <script>
+            function selectButton(buttonNumber) {
+              var buttons = document.querySelectorAll('.button-container button');
+              buttons.forEach(function(button) {
+                button.classList.remove('active');
+              });
+              buttons[buttonNumber - 1].classList.add('active');
+            }
+          </script>
+      </div>
+
+      
+    <div class="number-box">
+        <h2>how many you want: </h2>
+        <button id="decrement">-</button>
+        <input type="number" id="number" value="0" min="0" max="100">
+        <button id="increment">+</button>
+        <script>
+            document.getElementById("increment").addEventListener("click", function() {
+              var input = document.getElementById("number");
+              var value = parseInt(input.value, 10);
+              input.value = value + 1;
+            });
+          
+            document.getElementById("decrement").addEventListener("click", function() {
+              var input = document.getElementById("number");
+              var value = parseInt(input.value, 10);
+              if (value > parseInt(input.min, 10)) {
+                input.value = value - 1;
+              }
+            });
+          </script>
+      </div>
+      
+    <div class="box" id="box3">
+        <img src="c3.png" alt="c3">
+    </div>
+    <div >
+      <button><img src="https://t3.ftcdn.net/jpg/00/30/21/50/360_F_30215082_UkRQTbOQsiTtcjkTunYNjFoaaccgkRW5.jpg" alt="button"; id="bot"></button>
+      </div>
+   <a href="candypage.html"><h3>back to home page></h3></a> 
+    
+</body>
+</html>
